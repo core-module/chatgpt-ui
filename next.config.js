@@ -8,7 +8,7 @@ const nextConfig = {
     return config
   },
   env: {
-    siteTitle: 'Chat with Image + DALL·E',
+    siteTitle: 'Secure GPT for OpenAI',
     maxFileUploadCount: 10,
   },
   trailingSlash: true,
