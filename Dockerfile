@@ -6,8 +6,9 @@ RUN apk add --no-cache build-base
 COPY package.json ./
 
 RUN npm install
+RUN npm run build
 COPY . .
 
-EXPOSE 4000
+EXPOSE 3000
 
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "start"]
