@@ -1,7 +1,7 @@
 FROM node:18-alpine
 
 WORKDIR /app
-RUN apk add --no-cache build-base python3 git
+RUN apk add --no-cache build-base
 
 COPY package.json ./
 
