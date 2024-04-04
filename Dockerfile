@@ -1,5 +1,6 @@
 FROM node:18-alpine AS build
 
+USER root
 WORKDIR /app
 
 COPY package.json package-lock.json ./
