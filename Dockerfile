@@ -6,8 +6,10 @@ RUN apk add --no-cache build-base python3 git
 COPY package.json ./
 
 RUN npm install
-RUN npm run build
+
 COPY . .
+
+RUN npm run build
 
 EXPOSE 3000
 
