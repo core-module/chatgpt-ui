@@ -1,6 +1,8 @@
 # Use the official Node.js 20 Alpine image as a parent image
 FROM node:20-alpine
 
+ARG OPENAI_API_KEY
+ENV OPENAI_API_KEY=$OPENAI_API_KEY
 # Set the working directory in the container
 WORKDIR /app
 
