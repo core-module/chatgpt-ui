@@ -243,13 +243,13 @@
         background-color: #565656;
     }
     .assistant {
-        background-color: #1da5fb; /*#00414d;*//*005766*/
+        background-color: #121212; /*#00414d;*//*005766*/
     }
     .assistant .text {
         color: #fff;
     }
     .user {
-        background-color: #333;/*565656*/
+        background-color: #242424;/*565656*/
     }
     .system {
         background-color: #4d0000;
